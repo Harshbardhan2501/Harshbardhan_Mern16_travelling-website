@@ -1,0 +1,22 @@
+.main{
+    display: grid;
+    grid-template-areas: "h h h h"
+    "s m m m"
+    "s m m m"
+    "s m m m";    
+}
+
+.head{
+    grid-area: h;
+    background-color: aqua;
+}
+
+maincontent{
+    grid-area: m;
+    background-color: bisque;
+}
+
+.sidecontent{
+    grid-area: s;
+    background-color: coral;
+}
